@@ -33,18 +33,18 @@ public class TestBankAccount {
     @Test (priority = 4)
     public void testDeposit(){
         bank.setAmount(3_000_000);
-        double actual = bank.getAmount();
+        double value = bank.getAmount();
 
-        transaksi.deposit(actual);
+        double actual = transaksi.deposit(value);
         double expect = 3_000_000;
         Assert.assertEquals(actual,expect);
     }
     @Test (priority = 5)
     public void testWithdraw(){
         bank.setAmount(1_000_000);
-        double actual = bank.getAmount();
+        double value = bank.getAmount();
 
-        transaksi.withdraw(actual);
+        double actual = transaksi.withdraw(value);
         double expect = 1_000_000;
         Assert.assertEquals(actual,expect);
     }
