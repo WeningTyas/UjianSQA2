@@ -5,7 +5,7 @@ Download program java [BankAccount.java], kemudian buatlah project baru dan perb
 
 .
 .
-[Update 2 Agustus 2023]
+===== [Update 2 Agustus 2023] =====
 - Folder RawCode adalah berisi file BankAccount.java yg asli dan belum diperbaiki
 - Folder Ver_1 adalah file ala kadarnya dan masih asal asalan
 - Folder Ver_2 adalah file yg sudah dibagi antara Main dan kode programnya
